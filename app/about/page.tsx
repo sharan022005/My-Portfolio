@@ -34,7 +34,8 @@ export default function AboutPage() {
         <motion.div variants={itemVariants} className="space-y-4 text-center">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">About Me</h1>
           <p className="text-xl text-muted-foreground">
-            Results-driven Fullstack Developer with a passion for creating efficient, scalable web applications.
+            Aspiring engineering professional with a strong technical foundation in artificial intelligence and software
+            development.
           </p>
         </motion.div>
 
@@ -46,9 +47,10 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold">Personal Profile</h2>
           </div>
           <p className="text-muted-foreground leading-relaxed">
-            Results-driven Fullstack Developer with a passion for creating efficient, scalable web applications. Focused
-            on expanding technical expertise through collaboration with industry experts and hands-on project
-            development. Proficient in both frontend and backend technologies.
+            Aspiring engineering professional with a strong technical foundation in artificial intelligence and software
+            development. Passionate about leveraging technology to solve real-world problems through innovative
+            solutions. Dedicated to continuous learning and collaboration to deliver efficient, scalable results in
+            dynamic environments.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             My approach to development is centered around clean code, best practices, and continuous learning. I believe
@@ -69,13 +71,13 @@ export default function AboutPage() {
               title="Bachelor of Technology in Artificial Intelligence And Data Science"
               organization="RMK Engineering College, Thiruvallur"
               date="Expected in 2027"
-              description="Currently pursuing a degree in Artificial Intelligence and Data Science with a CGPA of 7.87."
+              description="Currently pursuing a degree in Artificial Intelligence and Data Science with a CGPA of 7.93."
             />
             <TimelineItem
               title="XII Grade"
               organization="Best Matriculation Higher Secondary School, Thanjavur, TN"
               date="2023"
-              description="Completed higher secondary education with 82% marks."
+              description="Completed higher secondary education with 83% marks."
             />
           </Timeline>
         </motion.div>

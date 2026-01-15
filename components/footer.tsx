@@ -40,7 +40,7 @@ export function Footer() {
         </motion.div>
         <motion.div variants={itemVariants} className="flex gap-4">
           <Link
-            href="https://github.com/Sharanbabu-1089"
+            href="https://github.com/sharan022005"
             target="_blank"
             rel="noreferrer"
             className="text-muted-foreground hover:text-blue-600 transition-colors"

@@ -64,7 +64,7 @@ export function HeroSection() {
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <Link
-                  href="https://drive.google.com/file/d/1Pf5Zt9zx9UV16ylD1nml2uDRAIF2PGXG/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1VUsJ8o_3zgNSWt_1aY7J502b_iArPCR_/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -75,7 +75,7 @@ export function HeroSection() {
             </motion.div>
             <motion.div variants={itemVariants} className="flex gap-4 mt-4">
               <Link
-                href="https://github.com/Sharanbabu-1089"
+                href="https://github.com/sharan022005"
                 target="_blank"
                 rel="noreferrer"
                 className="text-muted-foreground hover:text-blue-600 transition-colors"

@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Image from "next/image"
 import { Award } from "lucide-react"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 
@@ -9,9 +10,19 @@ interface CertificateCardProps {
   issuer: string
   date: string
   description?: string
+  // optional badge image (local asset only)
+  badgeSrc?: string
+  badgeAlt?: string
 }
 
-export function CertificateCard({ title, issuer, date, description }: CertificateCardProps) {
+export function CertificateCard({
+  title,
+  issuer,
+  date,
+  description,
+  badgeSrc,
+  badgeAlt = "Certification badge",
+}: CertificateCardProps) {
   return (
     <Card className="overflow-hidden border-none shadow-md transition-all duration-200 hover:shadow-lg h-full">
       <CardHeader className="flex flex-row items-center gap-4 p-6">
@@ -29,9 +40,24 @@ export function CertificateCard({ title, issuer, date, description }: Certificat
           </p>
         </div>
       </CardHeader>
-      {description && (
-        <CardContent className="p-6 pt-0">
-          <p className="text-sm text-muted-foreground">{description}</p>
+
+      {(badgeSrc || description) && (
+        <CardContent className="p-6 pt-0 space-y-4">
+          {badgeSrc && (
+            <div className="w-full">
+              <div className="relative mx-auto h-28 w-auto max-w-[320px]">
+                <Image
+                  src={badgeSrc || "/placeholder.svg"}
+                  alt={badgeAlt}
+                  width={552}
+                  height={276}
+                  className="h-28 w-auto object-contain mx-auto"
+                  priority={false}
+                />
+              </div>
+            </div>
+          )}
+          {description && <p className="text-sm text-muted-foreground">{description}</p>}
         </CardContent>
       )}
     </Card>

@@ -72,8 +72,8 @@ export default function Home() {
             <motion.div variants={itemVariants}>
               <SkillCard
                 icon={<Layers className="h-10 w-10" />}
-                title="AI & Data Science"
-                description="AI Foundations, Data Analysis"
+                title="AI & Deep Learning"
+                description="YOLOv8, MobileNetV2, OpenCV"
               />
             </motion.div>
             <motion.div variants={itemVariants}>
@@ -91,7 +91,7 @@ export default function Home() {
             variants={itemVariants}
             className="flex justify-center mt-12"
           >
-            <Button asChild variant="outline" className="group">
+            <Button asChild variant="outline" className="group bg-transparent">
               <Link href="/skills">
                 View All Skills
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -128,17 +128,18 @@ export default function Home() {
           >
             <motion.div variants={itemVariants}>
               <ProjectCard
-                title="My Portfolio Website"
-                description="Built a modern, minimalist portfolio website featuring clean design, technical skills showcase, and responsive layout with smooth navigation and interactive elements."
-                tags={["React", "Next.js", "TypeScript", "Tailwind CSS"]}
-                link="https://github.com/sharan022005/Micro-IT-Project-My-Portfolio"
+                title="Solar PV Detection Pipeline"
+                description="Automated AI-powered pipeline to detect and quantify rooftop solar panels using YOLOv8 and satellite imagery with real-time object detection."
+                tags={["YOLOv8", "Satellite Imagery", "Object Detection"]}
+                link="https://github.com/sharan022005/SOLAR-PV-DETECTION"
               />
             </motion.div>
             <motion.div variants={itemVariants}>
               <ProjectCard
-                title="ERP System"
-                description="Developed a comprehensive Enterprise Resource Planning system with integrated modules for inventory management, human resources, and financial tracking."
-                tags={["Web Development", "Inventory Management", "HR"]}
+                title="Falcon Safety Sentinel — YOLOv8s"
+                description="Optimized YOLOv8s-based computer vision model for detecting critical safety equipment with real-time detection and advanced hyperparameter tuning."
+                tags={["YOLOv8s", "Computer Vision", "Object Detection"]}
+                link="https://github.com/sharan022005/Falcon-Safety-Sentinel-YOLOv8s-Optimization-for-Critical-Space-Equipment-Detection"
               />
             </motion.div>
           </motion.div>
@@ -149,7 +150,7 @@ export default function Home() {
             variants={itemVariants}
             className="flex justify-center mt-12"
           >
-            <Button asChild variant="outline" className="group">
+            <Button asChild variant="outline" className="group bg-transparent">
               <Link href="/projects">
                 View All Projects
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -186,19 +187,27 @@ export default function Home() {
           >
             <motion.div variants={itemVariants}>
               <CertificateCard
-                title="Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate"
+                title="Oracle Cloud Infrastructure 2025 Certified Generative AI Professional"
                 issuer="Oracle"
                 date="2025"
               />
             </motion.div>
             <motion.div variants={itemVariants}>
-              <CertificateCard title="Oracle AI Vector Search" issuer="Oracle" date="2025" />
+              <CertificateCard
+                title="Oracle Cloud Infrastructure 2025 Certified Data Science Professional"
+                issuer="Oracle"
+                date="2025"
+              />
             </motion.div>
             <motion.div variants={itemVariants}>
-              <CertificateCard title="Computer Networks And Internet Protocol" issuer="NPTEL" date="2025" />
+              <CertificateCard title="Cloud Computing" issuer="NPTEL - IIT Kharagpur" date="2025" />
             </motion.div>
             <motion.div variants={itemVariants}>
-              <CertificateCard title="Certified HTML Developer" issuer="Ceeras" date="2023" />
+              <CertificateCard
+                title="Computer Networks And Internet Protocol"
+                issuer="NPTEL - IIT Kharagpur"
+                date="2025"
+              />
             </motion.div>
           </motion.div>
           <motion.div
@@ -208,7 +217,7 @@ export default function Home() {
             variants={itemVariants}
             className="flex justify-center mt-12"
           >
-            <Button asChild variant="outline" className="group">
+            <Button asChild variant="outline" className="group bg-transparent">
               <Link href="/achievements">
                 View All Achievements
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
