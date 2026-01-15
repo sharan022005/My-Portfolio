@@ -11,6 +11,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "SHARAN BABU A",
   description: "Fullstack Developer Portfolio - Showcasing skills, projects, and achievements",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/apple-icon.png",
+  },
     generator: 'v0.app'
 }
 
