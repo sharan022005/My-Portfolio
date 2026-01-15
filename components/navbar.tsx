@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
@@ -91,7 +90,7 @@ export function Navbar() {
       >
         <Link href="/" className="flex items-center gap-2">
           <motion.div variants={itemVariants} whileHover={{ scale: 1.05 }} className="flex items-center">
-            <Image src="/images/sb-logo.png" alt="Sharan Babu Logo" width={40} height={40} className="object-contain" />
+            <span className="text-xl font-bold text-blue-600">Sharan Babu</span>
           </motion.div>
         </Link>
 
