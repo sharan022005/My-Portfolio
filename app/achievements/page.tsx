@@ -21,22 +21,49 @@ export default function AchievementsPage() {
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   }
 
-  const nptelCertifications = [
+  const hackathonAchievements = [
     {
-      title: "Computer Networks And Internet Protocol",
-      issuer: "NPTEL",
-      date: "Jan–Apr 2025",
-      description: "12-week course from IIT Kharagpur.",
+      title: "Top 50 Teams – SIH 2025 Internal Hackathon",
+      issuer: "Smart India Hackathon",
+      date: "2025",
+      description: "Shortlisted among top 50 teams in the SIH 2025 Internal Hackathon for the Jharkhand Smart Tourism Platform project.",
     },
     {
-      title: "Joy of Computing using Python",
-      issuer: "NPTEL",
+      title: "Top 210 Teams – Hack4Delhi National Hackathon",
+      issuer: "Hack4Delhi",
+      date: "2024",
+      description: "Ranked among top 210 teams from 800+ participating teams in the Hack4Delhi National Hackathon.",
+    },
+    {
+      title: "2nd Place – IDEATHON",
+      issuer: "CEG, Guindy",
+      date: "2024",
+      description: "Won 2nd place in the IDEATHON competition conducted by College of Engineering, Guindy.",
+    },
+  ]
+
+  const nptelCertifications = [
+    {
+      title: "Cloud Computing",
+      issuer: "NPTEL - IIT Kharagpur",
+      date: "2025",
+      description: "Comprehensive course on cloud computing principles and implementations.",
+    },
+    {
+      title: "Computer Networks And Internet Protocol",
+      issuer: "NPTEL - IIT Kharagpur",
+      date: "Jan–Apr 2025",
+      description: "12-week course covering networking concepts and protocols.",
+    },
+    {
+      title: "The Joy of Computing Using Python",
+      issuer: "NPTEL - IIT Madras",
       date: "2023",
       description: "Comprehensive course covering Python programming concepts and applications.",
     },
     {
       title: "Soft Skill Development",
-      issuer: "NPTEL",
+      issuer: "NPTEL - IIT Kharagpur",
       date: "2023",
       description: "Course focused on developing essential soft skills for professional growth.",
     },
@@ -187,13 +214,29 @@ export default function AchievementsPage() {
         </motion.div>
 
         <motion.div variants={itemVariants}>
-          <Tabs defaultValue="nptel" className="w-full">
-            <TabsList className="grid w-full grid-cols-4">
+          <Tabs defaultValue="hackathon" className="w-full">
+            <TabsList className="grid w-full grid-cols-5">
+              <TabsTrigger value="hackathon">Hackathons</TabsTrigger>
               <TabsTrigger value="nptel">NPTEL</TabsTrigger>
               <TabsTrigger value="oracle">Oracle</TabsTrigger>
               <TabsTrigger value="infosys">Infosys</TabsTrigger>
               <TabsTrigger value="other">Other</TabsTrigger>
             </TabsList>
+
+            <TabsContent value="hackathon" className="mt-6">
+              <motion.div variants={containerVariants} className="grid grid-cols-1 gap-6 md:grid-cols-2">
+                {hackathonAchievements.map((cert, index) => (
+                  <motion.div
+                    key={index}
+                    variants={itemVariants}
+                    whileHover={{ scale: 1.03 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                  >
+                    <CertificateCard {...cert} />
+                  </motion.div>
+                ))}
+              </motion.div>
+            </TabsContent>
 
             <TabsContent value="nptel" className="mt-6">
               <motion.div variants={containerVariants} className="grid grid-cols-1 gap-6 md:grid-cols-2">
