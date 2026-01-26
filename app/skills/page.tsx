@@ -45,10 +45,11 @@ export default function SkillsPage() {
               description="Languages I use to build applications and solve problems."
             >
               <ProgressBar skill="Python" percentage={85} />
-              <ProgressBar skill="C" percentage={80} />
-              <ProgressBar skill="C++" percentage={75} />
-              <ProgressBar skill="Java" percentage={70} />
+              <ProgressBar skill="SQL" percentage={80} />
+              <ProgressBar skill="Java (Basic)" percentage={70} />
               <ProgressBar skill="JavaScript" percentage={75} />
+              <ProgressBar skill="HTML" percentage={90} />
+              <ProgressBar skill="CSS" percentage={85} />
             </SkillCategory>
           </motion.div>
 
@@ -79,12 +80,15 @@ export default function SkillsPage() {
 
           <motion.div variants={itemVariants} whileHover={{ y: -5 }} transition={{ type: "spring", stiffness: 200 }}>
             <SkillCategory
-              title="Database & API"
+              title="Development Tools & Cloud"
               icon={<Database className="h-6 w-6" />}
-              description="Database systems and API technologies."
+              description="Development environments, version control, and cloud services."
             >
-              <ProgressBar skill="MongoDB" percentage={70} />
-              <ProgressBar skill="REST API" percentage={75} />
+              <ProgressBar skill="VS Code" percentage={95} />
+              <ProgressBar skill="Git" percentage={85} />
+              <ProgressBar skill="Firebase Studio" percentage={75} />
+              <ProgressBar skill="Microsoft Azure" percentage={70} />
+              <ProgressBar skill="Google Colab" percentage={80} />
             </SkillCategory>
           </motion.div>
 

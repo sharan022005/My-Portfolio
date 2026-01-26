@@ -47,15 +47,10 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold">Personal Profile</h2>
           </div>
           <p className="text-muted-foreground leading-relaxed">
-            Aspiring engineering professional with a strong technical foundation in artificial intelligence and software
-            development. Passionate about leveraging technology to solve real-world problems through innovative
-            solutions. Dedicated to continuous learning and collaboration to deliver efficient, scalable results in
-            dynamic environments.
+            Aspiring engineering professional with a strong technical foundation in AI and software development. Passionate about leveraging technology to solve real-world problems through innovative solutions. Dedicated to continuous learning and collaboration to deliver efficient, scalable results in dynamic environments.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            My approach to development is centered around clean code, best practices, and continuous learning. I believe
-            in the power of technology to transform businesses and improve lives, and I'm committed to contributing to
-            that transformation through my work.
+            I specialize in building end-to-end solutions combining web technologies (Next.js, Flask) with advanced AI models (YOLOv8, MobileNetV2). My recent achievements include Top 50 ranking in SIH 2025 for a Smart Tourism Platform and 2nd place in CEG Guindy IDEATHON. I'm passionate about creating impactful projects that bridge the gap between cutting-edge technology and real-world applications.
           </p>
         </motion.div>
 
