@@ -30,6 +30,14 @@ export default function ProjectsPage() {
 
   const projects = [
     {
+      title: "SIH 2025 - Jharkhand Smart Tourism Platform",
+      description:
+        "Developed an eco-tourism platform using Next.js and Flask, featuring a Gemini-powered AI trip planner and AR/VR attraction previews. Integrated a Blockchain-backed trust system for secure bookings and a digital marketplace to empower local artisans. This project achieved Top 50 placement in the SIH 2025 Internal Hackathon, showcasing innovative solutions for sustainable tourism.",
+      tags: ["Next.js", "Flask", "Gemini AI", "Blockchain", "AR/VR", "Tourism Tech"],
+      category: "Web Development",
+      link: "#",
+    },
+    {
       title: "Intelligent Skin Condition Diagnosis Using Deep Learning with Explainable AI",
       description:
         "Developed a high-precision diagnostic system using MobileNetV2 with transfer learning to classify skin lesions from dermoscopic images, optimized for efficiency on limited hardware. The solution features a robust preprocessing pipeline that employs DullRazor for hair removal and bilateral filtering for noise reduction. Incorporated Explainable AI (GradCAM) to generate heatmaps highlighting irregular borders and utilizes a confidence-based interpretation mechanism to provide actionable recommendations for dermatologists.",

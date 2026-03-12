@@ -128,18 +128,18 @@ export default function Home() {
           >
             <motion.div variants={itemVariants}>
               <ProjectCard
-                title="Solar PV Detection Pipeline"
-                description="Automated AI-powered pipeline to detect and quantify rooftop solar panels using YOLOv8 and satellite imagery with real-time object detection."
-                tags={["YOLOv8", "Satellite Imagery", "Object Detection"]}
-                link="https://github.com/sharan022005/SOLAR-PV-DETECTION"
+                title="SIH 2025 - Jharkhand Smart Tourism Platform"
+                description="Developed an eco-tourism platform using Next.js and Flask with Gemini-powered AI trip planner and AR/VR attraction previews. Integrated Blockchain-backed trust system for secure bookings and digital marketplace for local artisans."
+                tags={["Next.js", "Flask", "Gemini AI", "Blockchain", "AR/VR"]}
+                link="#"
               />
             </motion.div>
             <motion.div variants={itemVariants}>
               <ProjectCard
-                title="Falcon Safety Sentinel — YOLOv8s"
-                description="Optimized YOLOv8s-based computer vision model for detecting critical safety equipment with real-time detection and advanced hyperparameter tuning."
-                tags={["YOLOv8s", "Computer Vision", "Object Detection"]}
-                link="https://github.com/sharan022005/Falcon-Safety-Sentinel-YOLOv8s-Optimization-for-Critical-Space-Equipment-Detection"
+                title="Solar PV Detection Pipeline"
+                description="Automated AI-powered pipeline to detect and quantify rooftop solar panels using YOLOv8 and satellite imagery with real-time object detection."
+                tags={["YOLOv8", "Satellite Imagery", "Object Detection"]}
+                link="https://github.com/sharan022005/SOLAR-PV-DETECTION"
               />
             </motion.div>
           </motion.div>
