@@ -66,13 +66,36 @@ export default function AboutPage() {
               title="Bachelor of Technology in Artificial Intelligence And Data Science"
               organization="RMK Engineering College, Thiruvallur"
               date="Expected in 2027"
-              description="Currently pursuing a degree in Artificial Intelligence and Data Science with a CGPA of 7.93."
+              description="Currently pursuing a degree in Artificial Intelligence and Data Science with a CGPA of 7.99."
             />
             <TimelineItem
               title="XII Grade"
               organization="Best Matriculation Higher Secondary School, Thanjavur, TN"
               date="2023"
               description="Completed higher secondary education with 83% marks."
+            />
+            <TimelineItem
+              title="X Grade"
+              organization="Jaigopal Garodia Vivekananda Vidyalaya Matriculation Higher Secondary School, Chennai"
+              date="2021"
+              description="Completed secondary education with 100% marks."
+            />
+          </Timeline>
+        </motion.div>
+
+        <motion.div variants={itemVariants} className="space-y-6">
+          <div className="flex items-center space-x-4">
+            <div className="rounded-full bg-primary/10 p-3">
+              <Briefcase className="h-6 w-6 text-primary" />
+            </div>
+            <h2 className="text-2xl font-bold">Experience</h2>
+          </div>
+          <Timeline>
+            <TimelineItem
+              title="Data Science Intern"
+              organization="THG Publishing Pvt Limited"
+              date="June 2026"
+              description="Developed a Semantic Search Engine using FastAPI and React with hybrid retrieval across text, PDFs, and images. Designed a robust backend integrating ChromaDB for vector embeddings and MongoDB Atlas for document management. Implemented parent-child chunking and Cross-Encoder re-ranking for improved search precision."
             />
           </Timeline>
         </motion.div>

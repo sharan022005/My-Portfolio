@@ -85,7 +85,9 @@ export default function SkillsPage() {
               description="Development environments, version control, and cloud services."
             >
               <ProgressBar skill="VS Code" percentage={95} />
+              <ProgressBar skill="Vercel" percentage={85} />
               <ProgressBar skill="Git" percentage={85} />
+              <ProgressBar skill="Antigravity" percentage={80} />
               <ProgressBar skill="Firebase Studio" percentage={75} />
               <ProgressBar skill="Microsoft Azure" percentage={70} />
               <ProgressBar skill="Google Colab" percentage={80} />

@@ -30,6 +30,22 @@ export default function ProjectsPage() {
 
   const projects = [
     {
+      title: "SolarAudit Pro — AI-Powered Remote Solar Site Audit Platform",
+      description:
+        "Developed a cloud-based B2B SaaS platform for automated remote rooftop assessments using computer vision and multi-source satellite imagery. Engineered an AI model to detect viable installation areas, calculate usable space, estimate power generation and ROI, and quantify carbon emission reductions. Implemented one-click professional PDF report generation, eliminating the need for manual site surveys and accelerating project onboarding.",
+      tags: ["Computer Vision", "Satellite Imagery", "B2B SaaS", "PDF Generation", "AI"],
+      category: "Web Development",
+      link: "#",
+    },
+    {
+      title: "SurakshaKYC — AI-Driven Digital KYC System",
+      description:
+        "Developed an end-to-end digital KYC onboarding system to mitigate identity fraud. Integrated EasyOCR for document validation, DeepFace for facial matching, and MediaPipe for liveness detection. Built a dynamic risk-scoring engine with a React.js dashboard and FastAPI backend to ensure secure, real-time verification.",
+      tags: ["EasyOCR", "DeepFace", "MediaPipe", "React.js", "FastAPI", "Risk Scoring"],
+      category: "Web Development",
+      link: "#",
+    },
+    {
       title: "SIH 2025 - Jharkhand Smart Tourism Platform",
       description:
         "Developed an eco-tourism platform using Next.js and Flask, featuring a Gemini-powered AI trip planner and AR/VR attraction previews. Integrated a Blockchain-backed trust system for secure bookings and a digital marketplace to empower local artisans. This project achieved Top 50 placement in the SIH 2025 Internal Hackathon, showcasing innovative solutions for sustainable tourism.",

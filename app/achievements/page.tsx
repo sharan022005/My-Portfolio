@@ -23,6 +23,12 @@ export default function AchievementsPage() {
 
   const hackathonAchievements = [
     {
+      title: "2nd Place – Intra-Department Project Competition",
+      issuer: "RMK Engineering College",
+      date: "2026",
+      description: "Won 2nd place in the Intra-Department Project Competition at RMK Engineering College.",
+    },
+    {
       title: "Top 50 Teams – SIH 2025 Internal Hackathon",
       issuer: "Smart India Hackathon",
       date: "2025",
@@ -44,16 +50,22 @@ export default function AchievementsPage() {
 
   const nptelCertifications = [
     {
+      title: "Intro to Industry 4.0 and IIoT",
+      issuer: "NPTEL",
+      date: "2025",
+      description: "Course on Industry 4.0 and Industrial Internet of Things fundamentals.",
+    },
+    {
       title: "Cloud Computing",
       issuer: "NPTEL - IIT Kharagpur",
       date: "2025",
       description: "Comprehensive course on cloud computing principles and implementations.",
     },
     {
-      title: "Computer Networks And Internet Protocol",
+      title: "Computer Networks And IPv4",
       issuer: "NPTEL - IIT Kharagpur",
       date: "Jan–Apr 2025",
-      description: "12-week course covering networking concepts and protocols.",
+      description: "12-week course covering networking concepts and IPv4 protocols.",
     },
     {
       title: "The Joy of Computing Using Python",
